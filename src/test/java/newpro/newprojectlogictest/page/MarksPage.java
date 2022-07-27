@@ -39,7 +39,7 @@ public class MarksPage {
    }
    
    public void resultAssertMarks() {
-      getVisibilityList(6, listMarks);
+      getVisibilityList(15, listMarks);
       assertThat(getListMarks(), hasItems("Lada", "BMW", "Audi", "Нива", "Волга"));
    }
 

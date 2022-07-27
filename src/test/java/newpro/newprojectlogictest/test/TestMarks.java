@@ -1,8 +1,8 @@
 package newpro.newprojectlogictest.test;
 
-import newpro.newprojectlogiс.NewprojectlogicApplication;
 import newpro.newprojectlogictest.page.MainPage;
-import org.junit.jupiter.api.Test;
+import newpro.newprojectlogiс.NewprojectlogicApplication;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

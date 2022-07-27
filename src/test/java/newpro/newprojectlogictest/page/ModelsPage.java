@@ -39,7 +39,7 @@ public class ModelsPage {
     }
 
     public void resultAssertModels() {
-        getVisibilityList(6, listModels);
+        getVisibilityList(15, listModels);
         assertThat(getListMarks(), hasItems("R8", "Octavia", "Granta"));
     }
 

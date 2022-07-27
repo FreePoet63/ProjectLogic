@@ -39,7 +39,7 @@ public class CarsPage {
     }
 
     public void resultAssertCars() {
-        getVisibilityList(6, listCars);
+        getVisibilityList(15, listCars);
         assertThat(getListCars(), hasItems("Наташа", "Юрий", "Олеся", "Шеф"));
     }
 

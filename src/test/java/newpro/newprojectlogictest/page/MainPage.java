@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MainPage extends AbstractPage{
+public class MainPage extends AbstractPage {
 
     @Value("${url.page}")
     private String BASE_URL;
